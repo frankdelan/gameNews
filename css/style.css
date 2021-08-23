@@ -108,6 +108,7 @@ h2::first-letter {
 
 * {
   font-family: 'Myriad',sans-serif;
+  scroll-behavior: smooth;
 }
 
 @-webkit-keyframes fadeIn {
