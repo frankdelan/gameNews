@@ -1,0 +1,151 @@
+@media screen and (max-width: 1024px) {
+  header .header__title h1 {
+    font-size: 140px;
+  }
+  .container .wrapper .about .about-wrapper .about__title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .wrapper .about .about-wrapper .about__title-left {
+    border-right: 0;
+  }
+  .container .wrapper .about .about-wrapper .about__title-right {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .container .wrapper .process .process-wrapper .process__contents .process-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .container .wrapper .process .process-wrapper .process__contents .process-content div {
+    margin-right: 5%;
+  }
+  .container .wrapper .process .process-wrapper .process__contents .reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .wrapper .process .process-wrapper .process__contents .reverse div {
+    padding-right: 0;
+  }
+  .container .wrapper .services .services-wrapper .services__advantages {
+    margin-left: 0;
+  }
+  .container .wrapper .services .services-wrapper .services__advantages .advantage-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .wrapper .services .services-wrapper .services__advantages .advantage-box .services-advantage {
+    max-width: 100%;
+  }
+  .container .wrapper .team .team-wrapper .team__title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .wrapper .team .team-wrapper .team__title-info {
+    padding-top: 20px;
+  }
+  .container .wrapper .team .team-wrapper .team__cards {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header .header__title {
+    max-width: 100%;
+  }
+  header .header__title h1 {
+    font-size: 100px;
+  }
+  header .header__title > p {
+    max-width: 100%;
+  }
+  .container .wrapper .about .wrapper-about .about__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .wrapper .about .wrapper-about .about__cards-item {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .container .wrapper .about .wrapper-about .about__cards-item .gamepad {
+    margin-top: 50px;
+  }
+  .container .wrapper .team .team-wrapper .team__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .wrapper .team .team-wrapper .team__cards-item {
+    padding: 20px 0;
+  }
+  .container .wrapper .review .review-wrapper .review__person {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .wrapper .review .review-wrapper .review__person-card {
+    padding-left: 0px;
+  }
+  .container .wrapper footer .footer__contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .wrapper footer .footer__contact iframe {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .container .wrapper footer .footer__contact form .form-wrapper {
+    margin-left: 0%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .container .wrapper footer .footer__contact form .form-wrapper h2 {
+    margin-left: 0;
+  }
+  .container .wrapper footer .footer__contact form .form-wrapper button {
+    width: 100%;
+  }
+  .container .wrapper footer .footer__contact form .form-wrapper .form-data {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header .header__title {
+    max-width: 100%;
+  }
+  header .header__title h1 {
+    font-size: 70px;
+  }
+  header .header__welcome .header__welcome-wrapper .header__menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .header__welcome .header__welcome-wrapper .header__menu a {
+    margin-bottom: 30px;
+  }
+  .container .wrapper .about .about-wrapper .about__title-left h2 {
+    font-size: 60px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,185 @@
+@media screen and (max-width:1024px){
+    header{
+        .header__title{
+            h1{
+                font-size: 140px;
+            }
+        }
+    }
+    .container{
+        .wrapper{
+            .about{
+                .about-wrapper{
+                    .about__title{
+                        flex-direction: column;
+                        &-left{
+                            border-right: 0;
+                        }
+                        &-right{
+                            flex-basis: 100%;
+                            padding-left: 0;
+                            padding-top: 20px;
+                        }                                              
+                    }
+                }
+            }
+            .process{
+                .process-wrapper{
+                    .process__contents{
+                        .process-content{
+                            flex-direction: column-reverse;
+                            div{
+                                margin-right: 5%;
+                            }
+                        }
+                        .reverse{
+                            flex-direction: column;
+                            div{
+                                padding-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .services{
+                .services-wrapper{
+                    .services__advantages{
+                        margin-left: 0;              
+                        .advantage-box{
+                            flex-direction: column;
+                            .services-advantage{    
+                                max-width: 100%;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .team{
+                .team-wrapper{
+                    .team__title{
+                        flex-direction: column;
+                        &-info{
+                            padding-top: 20px;
+                        }
+                    }
+                    .team__cards{
+                        margin-left: 0;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+@media screen and (max-width:767px){
+    header{
+        .header__title{
+            max-width: 100%;
+            h1{
+                font-size: 100px;
+            }
+            >p{
+                max-width: 100%;
+                
+            }
+        }
+    }
+    .container{
+        .wrapper{
+            .about{
+                .wrapper-about{
+                    .about__cards{
+                        flex-direction: column;
+                        &-item{
+                            max-width: 75%; 
+                            margin: 0 auto;
+                            .gamepad{
+                                margin-top: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+            .team{
+                .team-wrapper{
+                    .team__cards{
+                        flex-direction: column;
+                        &-item{
+                            padding: 20px 0;
+                        }
+                    }
+                }
+            }
+            .review{
+                .review-wrapper{
+                    .review__person{
+                        flex-direction: column;
+                        &-card{
+                            padding-left: 0px;
+                        }
+                    }
+                }
+            }
+            footer{
+                .footer__contact{
+                    flex-direction: column;
+                    iframe{
+                        flex-basis: 100%;
+                    }
+                    form{
+                        .form-wrapper{
+                            margin-left: 0%;
+                            max-width: 90%;
+                            margin: 0 auto;
+                            h2{
+                                margin-left: 0;
+                            }
+                            button{
+                                width: 100%;
+                            }
+                            .form-data{
+                                max-width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:480px){
+    header{
+        .header__title{
+            max-width: 100%;
+            h1{
+                font-size: 70px;
+            }
+        }
+        .header__welcome{
+            .header__welcome-wrapper{
+                .header__menu{
+                    flex-direction: column;
+                    a{
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        .wrapper{
+            .about{
+                .about-wrapper{
+                    .about__title{
+                        &-left{
+                            h2{
+                                font-size: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
